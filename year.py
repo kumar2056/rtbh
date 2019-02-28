@@ -1,5 +1,5 @@
-b=int(input())
-if (b<60):
-    print(b*0,b)
-elif (b>=60):
-    print(b//60,b%60)
+c=int(input())
+if (c<60):
+    print(c*0,c)
+elif (c>=60):
+    print(c//60% c%60)
